@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2EEE9DC1BE1101200C0C8AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EEE9DB1BE1101200C0C8AE /* main.m */; };
+		D2EEE9DF1BE1101200C0C8AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EEE9DE1BE1101200C0C8AE /* AppDelegate.m */; };
+		D2EEE9E21BE1101200C0C8AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EEE9E11BE1101200C0C8AE /* ViewController.m */; };
+		D2EEE9E51BE1101200C0C8AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EEE9E31BE1101200C0C8AE /* Main.storyboard */; };
+		D2EEE9E71BE1101200C0C8AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2EEE9E61BE1101200C0C8AE /* Assets.xcassets */; };
+		D2EEE9EA1BE1101200C0C8AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EEE9E81BE1101200C0C8AE /* LaunchScreen.storyboard */; };
+		D2EEE9F51BE1101200C0C8AE /* Altitude_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EEE9F41BE1101200C0C8AE /* Altitude_TestTests.m */; };
+		D2EEEA001BE1101200C0C8AE /* Altitude_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EEE9FF1BE1101200C0C8AE /* Altitude_TestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2EEE9F11BE1101200C0C8AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2EEE9CF1BE1101200C0C8AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2EEE9D61BE1101200C0C8AE;
+			remoteInfo = "Altitude Test";
+		};
+		D2EEE9FC1BE1101200C0C8AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2EEE9CF1BE1101200C0C8AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2EEE9D61BE1101200C0C8AE;
+			remoteInfo = "Altitude Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2EEE9D71BE1101200C0C8AE /* Altitude Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Altitude Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EEE9DB1BE1101200C0C8AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2EEE9DD1BE1101200C0C8AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2EEE9DE1BE1101200C0C8AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2EEE9E01BE1101200C0C8AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2EEE9E11BE1101200C0C8AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2EEE9E41BE1101200C0C8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2EEE9E61BE1101200C0C8AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2EEE9E91BE1101200C0C8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2EEE9EB1BE1101200C0C8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EEE9F01BE1101200C0C8AE /* Altitude TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Altitude TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EEE9F41BE1101200C0C8AE /* Altitude_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Altitude_TestTests.m; sourceTree = "<group>"; };
+		D2EEE9F61BE1101200C0C8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EEE9FB1BE1101200C0C8AE /* Altitude TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Altitude TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EEE9FF1BE1101200C0C8AE /* Altitude_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Altitude_TestUITests.m; sourceTree = "<group>"; };
+		D2EEEA011BE1101200C0C8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2EEE9D41BE1101200C0C8AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EEE9ED1BE1101200C0C8AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EEE9F81BE1101200C0C8AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2EEE9CE1BE1101200C0C8AE = {
+			isa = PBXGroup;
+			children = (
+				D2EEE9D91BE1101200C0C8AE /* Altitude Test */,
+				D2EEE9F31BE1101200C0C8AE /* Altitude TestTests */,
+				D2EEE9FE1BE1101200C0C8AE /* Altitude TestUITests */,
+				D2EEE9D81BE1101200C0C8AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2EEE9D81BE1101200C0C8AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2EEE9D71BE1101200C0C8AE /* Altitude Test.app */,
+				D2EEE9F01BE1101200C0C8AE /* Altitude TestTests.xctest */,
+				D2EEE9FB1BE1101200C0C8AE /* Altitude TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2EEE9D91BE1101200C0C8AE /* Altitude Test */ = {
+			isa = PBXGroup;
+			children = (
+				D2EEE9DD1BE1101200C0C8AE /* AppDelegate.h */,
+				D2EEE9DE1BE1101200C0C8AE /* AppDelegate.m */,
+				D2EEE9E01BE1101200C0C8AE /* ViewController.h */,
+				D2EEE9E11BE1101200C0C8AE /* ViewController.m */,
+				D2EEE9E31BE1101200C0C8AE /* Main.storyboard */,
+				D2EEE9E61BE1101200C0C8AE /* Assets.xcassets */,
+				D2EEE9E81BE1101200C0C8AE /* LaunchScreen.storyboard */,
+				D2EEE9EB1BE1101200C0C8AE /* Info.plist */,
+				D2EEE9DA1BE1101200C0C8AE /* Supporting Files */,
+			);
+			path = "Altitude Test";
+			sourceTree = "<group>";
+		};
+		D2EEE9DA1BE1101200C0C8AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2EEE9DB1BE1101200C0C8AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2EEE9F31BE1101200C0C8AE /* Altitude TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2EEE9F41BE1101200C0C8AE /* Altitude_TestTests.m */,
+				D2EEE9F61BE1101200C0C8AE /* Info.plist */,
+			);
+			path = "Altitude TestTests";
+			sourceTree = "<group>";
+		};
+		D2EEE9FE1BE1101200C0C8AE /* Altitude TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2EEE9FF1BE1101200C0C8AE /* Altitude_TestUITests.m */,
+				D2EEEA011BE1101200C0C8AE /* Info.plist */,
+			);
+			path = "Altitude TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2EEE9D61BE1101200C0C8AE /* Altitude Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EEEA041BE1101200C0C8AE /* Build configuration list for PBXNativeTarget "Altitude Test" */;
+			buildPhases = (
+				D2EEE9D31BE1101200C0C8AE /* Sources */,
+				D2EEE9D41BE1101200C0C8AE /* Frameworks */,
+				D2EEE9D51BE1101200C0C8AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Altitude Test";
+			productName = "Altitude Test";
+			productReference = D2EEE9D71BE1101200C0C8AE /* Altitude Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2EEE9EF1BE1101200C0C8AE /* Altitude TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EEEA071BE1101200C0C8AE /* Build configuration list for PBXNativeTarget "Altitude TestTests" */;
+			buildPhases = (
+				D2EEE9EC1BE1101200C0C8AE /* Sources */,
+				D2EEE9ED1BE1101200C0C8AE /* Frameworks */,
+				D2EEE9EE1BE1101200C0C8AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2EEE9F21BE1101200C0C8AE /* PBXTargetDependency */,
+			);
+			name = "Altitude TestTests";
+			productName = "Altitude TestTests";
+			productReference = D2EEE9F01BE1101200C0C8AE /* Altitude TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2EEE9FA1BE1101200C0C8AE /* Altitude TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EEEA0A1BE1101200C0C8AE /* Build configuration list for PBXNativeTarget "Altitude TestUITests" */;
+			buildPhases = (
+				D2EEE9F71BE1101200C0C8AE /* Sources */,
+				D2EEE9F81BE1101200C0C8AE /* Frameworks */,
+				D2EEE9F91BE1101200C0C8AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2EEE9FD1BE1101200C0C8AE /* PBXTargetDependency */,
+			);
+			name = "Altitude TestUITests";
+			productName = "Altitude TestUITests";
+			productReference = D2EEE9FB1BE1101200C0C8AE /* Altitude TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2EEE9CF1BE1101200C0C8AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Pinkstone Pictures LLC";
+				TargetAttributes = {
+					D2EEE9D61BE1101200C0C8AE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D2EEE9EF1BE1101200C0C8AE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D2EEE9D61BE1101200C0C8AE;
+					};
+					D2EEE9FA1BE1101200C0C8AE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D2EEE9D61BE1101200C0C8AE;
+					};
+				};
+			};
+			buildConfigurationList = D2EEE9D21BE1101200C0C8AE /* Build configuration list for PBXProject "Altitude Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2EEE9CE1BE1101200C0C8AE;
+			productRefGroup = D2EEE9D81BE1101200C0C8AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2EEE9D61BE1101200C0C8AE /* Altitude Test */,
+				D2EEE9EF1BE1101200C0C8AE /* Altitude TestTests */,
+				D2EEE9FA1BE1101200C0C8AE /* Altitude TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2EEE9D51BE1101200C0C8AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EEE9EA1BE1101200C0C8AE /* LaunchScreen.storyboard in Resources */,
+				D2EEE9E71BE1101200C0C8AE /* Assets.xcassets in Resources */,
+				D2EEE9E51BE1101200C0C8AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EEE9EE1BE1101200C0C8AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EEE9F91BE1101200C0C8AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2EEE9D31BE1101200C0C8AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EEE9E21BE1101200C0C8AE /* ViewController.m in Sources */,
+				D2EEE9DF1BE1101200C0C8AE /* AppDelegate.m in Sources */,
+				D2EEE9DC1BE1101200C0C8AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EEE9EC1BE1101200C0C8AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EEE9F51BE1101200C0C8AE /* Altitude_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EEE9F71BE1101200C0C8AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EEEA001BE1101200C0C8AE /* Altitude_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2EEE9F21BE1101200C0C8AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2EEE9D61BE1101200C0C8AE /* Altitude Test */;
+			targetProxy = D2EEE9F11BE1101200C0C8AE /* PBXContainerItemProxy */;
+		};
+		D2EEE9FD1BE1101200C0C8AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2EEE9D61BE1101200C0C8AE /* Altitude Test */;
+			targetProxy = D2EEE9FC1BE1101200C0C8AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2EEE9E31BE1101200C0C8AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2EEE9E41BE1101200C0C8AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2EEE9E81BE1101200C0C8AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2EEE9E91BE1101200C0C8AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2EEEA021BE1101200C0C8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2EEEA031BE1101200C0C8AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2EEEA051BE1101200C0C8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Altitude Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Altitude-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2EEEA061BE1101200C0C8AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Altitude Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Altitude-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2EEEA081BE1101200C0C8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Altitude TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Altitude-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Altitude Test.app/Altitude Test";
+			};
+			name = Debug;
+		};
+		D2EEEA091BE1101200C0C8AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Altitude TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Altitude-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Altitude Test.app/Altitude Test";
+			};
+			name = Release;
+		};
+		D2EEEA0B1BE1101200C0C8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Altitude TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Altitude-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Altitude Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D2EEEA0C1BE1101200C0C8AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Altitude TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Altitude-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Altitude Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2EEE9D21BE1101200C0C8AE /* Build configuration list for PBXProject "Altitude Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EEEA021BE1101200C0C8AE /* Debug */,
+				D2EEEA031BE1101200C0C8AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EEEA041BE1101200C0C8AE /* Build configuration list for PBXNativeTarget "Altitude Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EEEA051BE1101200C0C8AE /* Debug */,
+				D2EEEA061BE1101200C0C8AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2EEEA071BE1101200C0C8AE /* Build configuration list for PBXNativeTarget "Altitude TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EEEA081BE1101200C0C8AE /* Debug */,
+				D2EEEA091BE1101200C0C8AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2EEEA0A1BE1101200C0C8AE /* Build configuration list for PBXNativeTarget "Altitude TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EEEA0B1BE1101200C0C8AE /* Debug */,
+				D2EEEA0C1BE1101200C0C8AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2EEE9CF1BE1101200C0C8AE /* Project object */;
+}
