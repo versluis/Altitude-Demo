@@ -20,11 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // populate labels
-    self.label1.text = nil;
-    self.label2.text = nil;
-    self.label3.text = nil;
+    [self resetLabels];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -52,6 +48,7 @@
     } else {
         
         NSLog(@"Barometer is available.");
+        self.label1.text = @"Gathering values...";
     }
     
     // start altitude tracking
@@ -63,9 +60,9 @@
         NSString *altitude = [NSString stringWithFormat:@"%@", altitudeData.relativeAltitude];
         NSString *pressure = [NSString stringWithFormat:@"%@", altitudeData.pressure];
         
-        self.label1.text = [NSString stringWithFormat:@"Time Interval: %@", timeInterval];
-        self.label2.text = [NSString stringWithFormat:@"Relative Altitude: %@", altitude];
-        self.label3.text = [NSString stringWithFormat:@"Air Pressure: %@", pressure];
+        self.label1.text = [NSString stringWithFormat:@"Time Interval: \n%@", timeInterval];
+        self.label2.text = [NSString stringWithFormat:@"Relative Altitude: \n%@", altitude];
+        self.label3.text = [NSString stringWithFormat:@"Air Pressure: \n%@", pressure];
         
     }];
 }
@@ -74,6 +71,7 @@
     
     // switch of altitude tracking
     [self.altimeter stopRelativeAltitudeUpdates];
+    [self resetLabels];
 }
 
 - (void)noBarometerAlert {
@@ -82,6 +80,14 @@
     UIAlertAction *action = [UIAlertAction actionWithTitle:@"Damn Technology!" style:UIAlertActionStyleDefault handler:nil];
     [controller addAction:action];
     [self presentViewController:controller animated:YES completion:nil];
+}
+
+- (void)resetLabels {
+    
+    // populate labels
+    self.label1.text = @"Press Start to begin\nAltitude Tracking";
+    self.label2.text = nil;
+    self.label3.text = nil;
 }
 
 @end

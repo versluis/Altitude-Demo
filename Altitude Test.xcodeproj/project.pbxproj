@@ -498,6 +498,7 @@
 				D2EEEA061BE1101200C0C8AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2EEEA071BE1101200C0C8AE /* Build configuration list for PBXNativeTarget "Altitude TestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				D2EEEA091BE1101200C0C8AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2EEEA0A1BE1101200C0C8AE /* Build configuration list for PBXNativeTarget "Altitude TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +516,7 @@
 				D2EEEA0C1BE1101200C0C8AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
