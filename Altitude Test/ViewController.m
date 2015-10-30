@@ -55,14 +55,7 @@
     [self.altimeter startRelativeAltitudeUpdatesToQueue:[NSOperationQueue mainQueue] withHandler:^(CMAltitudeData * _Nullable altitudeData, NSError * _Nullable error) {
         
         // this block is called every time there's an update
-        
-        NSString *timeInterval = [NSString stringWithFormat:@"%f", altitudeData.timestamp];
-        NSString *altitude = [NSString stringWithFormat:@"%@", altitudeData.relativeAltitude];
-        NSString *pressure = [NSString stringWithFormat:@"%@", altitudeData.pressure];
-        
-        self.label1.text = [NSString stringWithFormat:@"Time Interval: \n%@", timeInterval];
-        self.label2.text = [NSString stringWithFormat:@"Relative Altitude: \n%@", altitude];
-        self.label3.text = [NSString stringWithFormat:@"Air Pressure: \n%@", pressure];
+        [self updateLabels:altitudeData];
         
     }];
 }
@@ -88,6 +81,22 @@
     self.label1.text = @"Press Start to begin\nAltitude Tracking";
     self.label2.text = nil;
     self.label3.text = nil;
+}
+
+- (void)updateLabels:(CMAltitudeData *)altitudeData {
+    
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc]init];
+    formatter.maximumFractionDigits = 2;
+    formatter.minimumIntegerDigits = 1;
+    
+    NSNumber *timestamp = [NSNumber numberWithDouble:altitudeData.timestamp];
+    NSString *timeInterval = [NSString stringWithFormat:@"%@", [formatter stringFromNumber:timestamp]];
+    NSString *altitude = [NSString stringWithFormat:@"%@", [formatter stringFromNumber:altitudeData.relativeAltitude]];
+    NSString *pressure = [NSString stringWithFormat:@"%@", [formatter stringFromNumber:altitudeData.pressure]];
+    
+    self.label1.text = [NSString stringWithFormat:@"Time Interval: \n%@", timeInterval];
+    self.label2.text = [NSString stringWithFormat:@"Relative Altitude: \n%@", altitude];
+    self.label3.text = [NSString stringWithFormat:@"Air Pressure: \n%@", pressure];
 }
 
 @end
